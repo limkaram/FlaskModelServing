@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Object Detection</title>
+        <link rel="stylesheet" type="text/css" href="../static/index.css" />
+    </head>
+    <body>
+        <ul>
+          <li><a class="active" href="/">OP.GG</a></li>
+          <li><a href="/object-detection">Object Detection</a></li>
+          <li><a href="/sentiment-analysis">Sentiment Analysis</a></li>
+        </ul>
+        <div style="text-align: center; margin-top: 150px">
+            <h1 style="color: #5D84E1">Object Detection - YOLOv5</h1>
+            <form action="/object-detection/od-fileUpload" method="POST" enctype="multipart/form-data">
+                <input type="file" name="file"/>
+                <input type="submit" onclick="alert('제출 완료!')"/>
+            </form>
+            <br>
+        </div>
+    </body>
+</html>
